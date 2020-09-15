@@ -6,6 +6,6 @@ python get-pip.py --user
 // install ansible
 sudo apt-get install -y git ansible
 
-
-ansible-pull -U https://github.com/drBenway/ansible
+ansible-galaxy install -r requirements.yml
+ansible-pull -i localhost -U https://github.com/drBenway/ansible-docker playbook.yml
 

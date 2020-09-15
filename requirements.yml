@@ -1,0 +1,5 @@
+# docker role
+# nodejs role
+- src: https://github.com/drBenway/ansible-docker
+  version: 57a4675e9d7d71029db891d493a5598972f40a9a
+  name: docker
