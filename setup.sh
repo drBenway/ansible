@@ -1,11 +1,16 @@
 sudo apt-get update
-// install pip
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python get-pip.py --user
 
-// install ansible
-sudo apt-get install -y git ansible
+// install dependencies
+sudo apt-get install -y  python3-pip  git ansible
 
-ansible-galaxy install -r requirements.yml
+// add the roles to galaxy so the playbooks work
+ansible-galaxy install -r requirements.yml --force
+
+//docker
 ansible-pull -i localhost -U https://github.com/drBenway/ansible-docker playbook.yml
 
+// sublime
+ansible-pull -i localhost -U https://github.com/drBenway/ansible-sublime playbook.yml
+
+// visual studio
+ansible-pull -i localhost -U https://github.com/drBenway/ansible-vs playbook.yml

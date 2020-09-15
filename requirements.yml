@@ -1,5 +1,16 @@
 # docker role
-# nodejs role
 - src: https://github.com/drBenway/ansible-docker
-  version: 57a4675e9d7d71029db891d493a5598972f40a9a
   name: docker
+
+# intellij role
+#- src: https://github.com/drBenway/ansible-intellij
+#  name: intellij
+
+
+# sublime role
+- src: https://github.com/drBenway/ansible-sublime
+  name: sublime
+
+# visual studio role
+- src: https://github.com/drBenway/ansible-vs
+  name: vs
