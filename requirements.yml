@@ -3,8 +3,8 @@
   name: docker
 
 # intellij role
-#- src: https://github.com/drBenway/ansible-intellij
-#  name: intellij
+- src: https://github.com/drBenway/ansible-intellij
+  name: intellij
 
 
 # sublime role
