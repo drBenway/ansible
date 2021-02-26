@@ -14,3 +14,8 @@
 # visual studio role
 - src: https://github.com/drBenway/ansible-vs
   name: vs
+  
+
+# wallpaper
+- src: https://github.com/drBenway/ansible-wallpaper
+  name: wallpaper
