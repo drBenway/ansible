@@ -19,3 +19,7 @@
 # wallpaper
 - src: https://github.com/drBenway/ansible-wallpaper
   name: wallpaper
+  
+# jetbrains mono font
+- src: https://github.com/drBenway/ansible-jetbrains-mono
+  name: jetbrains_mono
