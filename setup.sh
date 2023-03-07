@@ -28,9 +28,15 @@ ansible-pull -i localhost -U https://github.com/drBenway/ansible-intellij playbo
 
 // sublime
 jp2a https://raw.githubusercontent.com/drBenway/ansible-sublime/master/sublime_logo.jpg --color --fill --size=80x40
-
 ansible-pull -i localhost -U https://github.com/drBenway/ansible-sublime playbook.yml
 
 // visual studio
 jp2a https://raw.githubusercontent.com/drBenway/ansible-vs/master/visualstudio_logo.jpg --color --fill --size=80x40
 ansible-pull -i localhost -U https://github.com/drBenway/ansible-vs playbook.yml
+
+// Solaar
+https://github.com/drBenway/ansible-solaar playbook.yml
+
+// Jetbrains Mono font
+jp2a https://raw.githubusercontent.com/drBenway/ansible-jetbrains-mono/blob/main/jetbrains_mono_logo.jpg --color --fill --size=80x40
+ansible-pull -i localhost -U https://github.com/drBenway/ansible-jetbrains-mono playbook.yml
